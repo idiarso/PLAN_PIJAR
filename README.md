@@ -38,11 +38,64 @@ Sistem Informasi Manajemen (SIM) Sekolah SMKN 1 Punggelan adalah platform digita
 
 ## Teknologi
 
-- **Frontend**: React.js dengan antarmuka responsif
-- **Backend**: Node.js dengan Express.js
-- **Database**: PostgreSQL
+### Frontend
+- **Framework**: React.js
+- **State Management**: Redux Toolkit
+- **Styling**: Tailwind CSS
+- **Icons**: React Icons
+- **Form Handling**: Formik & Yup
+- **HTTP Client**: Axios
+
+### Backend
+- **Runtime**: Node.js
+- **Framework**: Express.js
+- **API**: RESTful API
+- **Documentasi**: Swagger/OpenAPI
+- **Logging**: Winston
+- **Testing**: Jest & Supertest
+
+### Database
+- **Sistem**: PostgreSQL
+- **ORM**: Sequelize
+- **Migrasi**: Sequelize CLI
+- **Seeding**: Data dummy untuk pengembangan
+
+### Keamanan
 - **Autentikasi**: JWT (JSON Web Tokens)
-- **Hosting**: Cloud-based
+- **Enkripsi**: bcryptjs
+- **Rate Limiting**: express-rate-limit
+- **CORS**: Pengaturan aman untuk lintas domain
+- **Security Headers**: Helmet.js
+
+### Pengembangan
+- **Environment**: dotenv
+- **Linting**: ESLint
+- **Formatting**: Prettier
+- **Version Control**: Git
+- **CI/CD**: GitHub Actions
+
+### Deployment
+- **Platform**: Cloud-based (AWS/GCP/Azure)
+- **Containerization**: Docker
+- **Orchestration**: Kubernetes (opsional)
+- **Monitoring**: Prometheus & Grafana
+
+## Catatan Tambahan
+
+Modul Izin Masuk dan Keluar serta Pengelolaan PKL dikembangkan menggunakan teknologi berbasis web (Node.js dengan Express.js) dan cloud, sesuai dengan infrastruktur SIM Sekolah SMKN 1 Punggelan. Antarmuka responsif memastikan aksesibilitas dari berbagai perangkat.
+
+### Integrasi Sistem
+Kedua modul baru terintegrasi dengan modul absensi, akademik, dan komunikasi SIM Sekolah SMKN 1 Punggelan untuk memastikan data terpusat dan efisien.
+
+### Aksesibilitas
+- Aplikasi web responsif yang dapat diakses melalui browser modern
+- API yang dapat diintegrasikan dengan aplikasi mobile
+- Dukungan multi-perangkat (desktop, tablet, mobile)
+
+### Dukungan
+- Dokumentasi API yang lengkap
+- Panduan pengguna untuk setiap modul
+- Dukungan teknis melalui tim pengembang
 
 ## Instalasi
 
